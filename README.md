@@ -1,17 +1,44 @@
-# kids_magazine_v6
+# Kids Magazine Parent Dashboard
 
-A new Flutter project.
+A Flutter-based Parent Dashboard integrated into a multilingual Kids Magazine application. The dashboard enables parents to monitor children's reading activity, enforce daily screen-time limits, and securely manage access using PIN authentication.
+
+## Features
+
+- 🔐 Secure 4-digit PIN authentication
+- 📊 Reading analytics dashboard
+- 📖 Reading history with session tracking
+- ⏱️ Daily screen-time control
+- ☁️ Firebase Authentication
+- 🔥 Cloud Firestore integration
+- 💾 Offline settings using SharedPreferences
+- 🌐 Multilingual support
+
+## Tech Stack
+
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- SharedPreferences
+- Firebase Storage
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
+## My Contribution
 
-A few resources to get you started if this is your first Flutter project:
+- Designed and implemented the Parent Dashboard module.
+- Developed PIN-based authentication for secure parental access.
+- Implemented reading history and activity analytics using Cloud Firestore.
+- Added configurable daily screen-time limits with SharedPreferences.
+- Integrated Firebase Authentication for secure user management.
+  
+## Future Enhancements
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Multi-child profiles
+- AI-based reading recommendations
+- Push notifications
+- Remote parent dashboard
